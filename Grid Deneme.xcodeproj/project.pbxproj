@@ -13,6 +13,8 @@
 		3245E22425F7F09F000C9BD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3245E22325F7F09F000C9BD0 /* Assets.xcassets */; };
 		3245E22725F7F09F000C9BD0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3245E22625F7F09F000C9BD0 /* Preview Assets.xcassets */; };
 		3245E22A25F7F09F000C9BD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3245E22825F7F09F000C9BD0 /* LaunchScreen.storyboard */; };
+		3245E23C25F7F5C2000C9BD0 /* UIGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3245E23B25F7F5C2000C9BD0 /* UIGrid.swift */; };
+		3245E24325F7F88E000C9BD0 /* SecondViewSelam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3245E24225F7F88E000C9BD0 /* SecondViewSelam.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3245E22625F7F09F000C9BD0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3245E22925F7F09F000C9BD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3245E22B25F7F09F000C9BD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3245E23B25F7F5C2000C9BD0 /* UIGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIGrid.swift; sourceTree = "<group>"; };
+		3245E24225F7F88E000C9BD0 /* SecondViewSelam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewSelam.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				3245E22825F7F09F000C9BD0 /* LaunchScreen.storyboard */,
 				3245E22B25F7F09F000C9BD0 /* Info.plist */,
 				3245E22525F7F09F000C9BD0 /* Preview Content */,
+				3245E23B25F7F5C2000C9BD0 /* UIGrid.swift */,
+				3245E24225F7F88E000C9BD0 /* SecondViewSelam.swift */,
 			);
 			path = "Grid Deneme";
 			sourceTree = "<group>";
@@ -146,8 +152,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3245E21E25F7F09B000C9BD0 /* AppDelegate.swift in Sources */,
+				3245E24325F7F88E000C9BD0 /* SecondViewSelam.swift in Sources */,
 				3245E22025F7F09B000C9BD0 /* SceneDelegate.swift in Sources */,
 				3245E22225F7F09B000C9BD0 /* ContentView.swift in Sources */,
+				3245E23C25F7F5C2000C9BD0 /* UIGrid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +299,7 @@
 				DEVELOPMENT_TEAM = DJKV3HAUZG;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Grid Deneme/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +321,7 @@
 				DEVELOPMENT_TEAM = DJKV3HAUZG;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Grid Deneme/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
