@@ -59,9 +59,7 @@ struct UIGrid<Content: View, T: Hashable>: View {
 struct UIGrid_Previews: PreviewProvider {
     static var previews: some View {
         ScrollView() {
-                
             UIGrid(columns: 4, list: ["ali","veli"]) { emoji in
-                
                 Text(emoji)
                     .font(.largeTitle)
             }
